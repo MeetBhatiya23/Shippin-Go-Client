@@ -1,0 +1,278 @@
+{
+  "electronics": {
+    "mobiles & accessories": [
+      "Smartphones",
+      "Phone Cases & Covers",
+      "Screen Protectors",
+      "Chargers & Power Banks",
+      "Headphones & Earbuds"
+    ],
+    "computers & accessories": [
+      "Laptops & Desktops",
+      "Keyboards & Mice",
+      "Monitors",
+      "External Hard Drives & Storage",
+      "Networking Devices",
+      "Laptop Accessories"
+    ],
+    "tv & video": [
+      "Televisions",
+      "Streaming Devices",
+      "Projectors",
+      "TV Wall Mounts",
+      "Media Players"
+    ],
+    "cameras & photography": [
+      "DSLR Cameras",
+      "Mirrorless Cameras",
+      "Camera Lenses",
+      "Tripods",
+      "Action Cameras",
+      "Camera Drones"
+    ],
+    "home audio": [
+      "Soundbars",
+      "Home Theater Systems",
+      "Bluetooth Speakers",
+      "Subwoofers",
+      "Receivers & Amplifiers"
+    ],
+    "headphones, earbuds & accessories": [
+      "Wireless Headphones",
+      "True Wireless Earbuds",
+      "Gaming Headsets",
+      "Noise-Canceling Headphones",
+      "Headphone Stands"
+    ],
+    "wearable technology": [
+      "Smartwatches",
+      "Fitness Trackers",
+      "Smart Glasses",
+      "Health Monitors"
+    ],
+    "car & vehicle electronics": [
+      "Car Audio Systems",
+      "Car GPS & Navigation",
+      "Dash Cameras",
+      "Car Chargers & Power Inverters",
+      "Car Security Systems"
+    ],
+    "home appliances": [
+      "Smart Home Assistants",
+      "Vacuum Cleaners",
+      "Smart Lighting",
+      "Air Purifiers",
+      "Smart Thermostats"
+    ],
+    "gaming & accessories": [
+      "Gaming Consoles",
+      "Gaming Controllers",
+      "VR Headsets",
+      "Gaming Monitors"
+    ],
+    "power accessories": [
+      "Surge Protectors",
+      "Universal Travel Adapters",
+      "UPS Battery Backups",
+      "Charging Stations"
+    ]
+  },
+  "home & kitchen": {
+    "kitchen appliances": [
+      "Blenders & Food Processors",
+      "Coffee Makers",
+      "Toasters & Toaster Ovens",
+      "Electric Kettles",
+      "Air Fryers",
+      "Microwaves"
+    ],
+    "cookware & bakeware": [
+      "Non-stick Cookware",
+      "Pots & Pans",
+      "Baking Sheets & Pans",
+      "Dutch Ovens",
+      "Cast Iron Cookware",
+      "Mixing Bowls"
+    ],
+    "storage & organization": [
+      "Kitchen Storage Containers",
+      "Shelving Units",
+      "Drawer Organizers",
+      "Food Storage Bags & Containers",
+      "Spice Racks & Jars",
+      "Baskets & Bins"
+    ],
+    "tableware & serveware": [
+      "Dinnerware Sets",
+      "Cutlery",
+      "Glassware",
+      "Serving Trays & Platters",
+      "Tablecloths & Placemats"
+    ],
+    "small kitchen gadgets": [
+      "Peelers & Slicers",
+      "Can Openers & Bottle Openers",
+      "Measuring Cups & Spoons",
+      "Cutting Boards",
+      "Cheese Graters & Zesters"
+    ],
+    "cleaning supplies": [
+      "Vacuum Cleaners",
+      "Mops & Brooms",
+      "Cleaning Cloths & Sponges",
+      "Garbage Bags & Trash Cans",
+      "Laundry Baskets"
+    ],
+    "lighting": [
+      "Table Lamps",
+      "Ceiling Lights & Chandeliers",
+      "Floor Lamps",
+      "Under-Cabinet Lighting",
+      "LED Bulbs"
+    ],
+    "home décor": [
+      "Wall Art & Picture Frames",
+      "Vases & Decorative Bowls",
+      "Throw Pillows & Blankets",
+      "Rugs & Carpets",
+      "Mirrors"
+    ],
+    "bathroom accessories": [
+      "Shower Curtains & Liners",
+      "Bathroom Mats",
+      "Soap Dispensers & Toothbrush Holders",
+      "Towel Racks & Hooks",
+      "Toilet Paper Holders"
+    ],
+    "bedding & linens": [
+      "Bed Sheets & Pillowcases",
+      "Comforters & Duvet Covers",
+      "Mattress Protectors",
+      "Blankets & Throws",
+      "Bed Pillows"
+    ],
+    "cookware tools & utensils": [
+      "Whisks & Tongs",
+      "Ladles & Spatulas",
+      "Rolling Pins & Baking Mats",
+      "Measuring Spoons",
+      "Colanders & Strainers"
+    ],
+    "air conditioners, fans & heaters": [
+      "Tower Fans",
+      "Window & Portable Air Conditioners",
+      "Space Heaters",
+      "Humidifiers & Dehumidifiers"
+    ],
+    "furniture": [
+      "Kitchen & Dining Tables",
+      "Sofas & Sectionals",
+      "Bed Frames & Headboards",
+      "Coffee Tables & End Tables",
+      "TV Stands & Media Units"
+    ],
+    "outdoor & garden": [
+      "Patio Furniture Sets",
+      "Barbecue Grills",
+      "Outdoor Lighting",
+      "Garden Tools",
+      "Planters & Flower Pots"
+    ]
+  },
+  "fashion": {
+    "men": {
+      "clothing": [
+        "T-Shirts & Polos",
+        "Shirts",
+        "Jeans",
+        "Trousers & Chinos",
+        "Suits & Blazers",
+        "Jackets & Coats",
+        "Shorts",
+        "Sweaters & Hoodies",
+        "Activewear & Sportswear"
+      ],
+      "footwear": [
+        "Casual Shoes",
+        "Formal Shoes",
+        "Sneakers",
+        "Sandals & Flip-flops",
+        "Boots",
+        "Loafers"
+      ],
+      "accessories": [
+        "Watches",
+        "Sunglasses",
+        "Belts",
+        "Ties & Cufflinks",
+        "Hats & Caps",
+        "Bags & Wallets",
+        "Scarves & Gloves",
+        "Socks",
+        "Grooming Products"
+      ]
+    },
+    "women": {
+      "clothing": [
+        "Dresses",
+        "Tops & Blouses",
+        "Skirts",
+        "Jeans & Pants",
+        "Leggings & Jeggings",
+        "Ethnic Wear",
+        "Sweaters & Hoodies",
+        "Jackets & Coats",
+        "Lingerie & Sleepwear",
+        "Activewear & Sportswear",
+        "Party Wear"
+      ],
+      "footwear": [
+        "Heels & Stilettos",
+        "Flats & Sandals",
+        "Boots",
+        "Sneakers",
+        "Loafers"
+      ],
+      "accessories": [
+        "Jewelry",
+        "Watches",
+        "Handbags & Clutches",
+        "Belts",
+        "Scarves & Shawls",
+        "Hats & Caps",
+        "Sunglasses",
+        "Perfumes & Fragrances",
+        "Makeup & Skincare"
+      ]
+    },
+    "kids": {
+      "clothing": [
+        "T-Shirts",
+        "Dresses",
+        "Jeans & Pants",
+        "Shorts",
+        "Skirts",
+        "Ethnic Wear",
+        "Jackets & Hoodies",
+        "School Uniforms",
+        "Sleepwear",
+        "Activewear"
+      ],
+      "footwear": [
+        "Sandals & Flip-flops",
+        "Sneakers",
+        "School Shoes",
+        "Casual Shoes",
+        "Boots"
+      ],
+      "accessories": [
+        "Backpacks & School Bags",
+        "Watches",
+        "Hats & Caps",
+        "Socks & Tights",
+        "Hair Accessories",
+        "Sunglasses"
+      ]
+    }
+  }
+}

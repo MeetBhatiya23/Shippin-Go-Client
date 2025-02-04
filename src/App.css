@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.category-font{
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(80, 77, 77);
+}
+.scroll-hide {
+  overflow-y: auto; /* Allows vertical scrolling */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+.scroll-hide::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar for WebKit browsers */
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hide increment/decrement for Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.containers {
+  /* background-color: rgb(236, 233, 230); */
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  box-shadow: 2px 2px 5px;
+  z-index: 99;
+}
+.all-link {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+}
+.all_link:hover {
+  color: #0061ff;
+}
+.mobile-nav-btn {
+  display: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+/* .active{
+       background-color: aliceblue;
+       color: black;
+       display: inline;
+       height: 100vh;
+        width: 100wh;
+        padding: 30px;
+        
+    } */
+
+.text-center {
+  display: none;
+}
+/* Home Section  */
+
+.home-section {
+  padding: 0 60px;
+  padding-top: 80px;
+}
+.home-title {
+  /* padding: 30px 0; */
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.box-control {
+  box-shadow: 30px 30px 0px #6b94eb66;
+}
+
+.main-item {
+  margin-top: 20px !important;
+  display: flex;
+  margin: 40px 150px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.delivery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  grid-column: 3/4;
+}
+.payment {
+  grid-column: 4/5;
+} 
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px; 
+}
+.foo-bar {
+  background-color: #ff4d4f;
+  color: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 8px; 
+  padding: 8px 16px; 
+
+}
+
+/* Style for Firefox */
+
+/* -----------------------------------------------Mobile user case ( @media )------------------------------------------- */
+
+@media (max-width: 430px) {
+  .containers {
+    padding: 0;
+    padding: 0 20px;
+  }
+  .all_link {
+    display: none;
+    margin: 0;
+  }
+  .all-link {
+    display: flex;
+    gap: 0;
+  }
+  .logo {
+    padding: 0;
+  }
+  .mobile-nav-btn {
+    display: flex;
+    margin: 0px;
+    justify-content: end;
+    cursor: pointer;
+    z-index: 999;
+    align-items: center;
+  }
+  .btn-menu {
+    font-size: 22px;
+    display: flex;
+  }
+  .btn-close {
+    display: none;
+  }
+  /* .active.btn-close{
+        isplay: flex;d
+    } */
+  /* .btn-menu{
+        width: 100%;
+        
+
+    } */
+  .drawer-navigation {
+    display: none;
+  }
+  .text-center {
+    display: flex;
+    align-items: center;
+  }
+  .text-center.btn-menu {
+    display: none;
+  }
+  .responsive{
+    font-size: 10px;
+    padding: 0 10px;
+  }
+}
+
+.z-100{
+  z-index: 100;
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+
+.background{
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+  overflow: hidden;
+  height: 100vh;
+}
+
+.ocean {
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #015871;
+}
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 5s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+@keyframes wave {
+  0% {
+      margin-left: 0;
+  }
+  100% {
+      margin-left: -1600px;
+  }
+}
+@keyframes swell {
+  0%, 100% {
+      transform: translate3d(0,-25px,0);
+  }
+  50% {
+      transform: translate3d(0,5px,0);
+  }
+}.ocean {
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #015871;
+}
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 5s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+@keyframes wave {
+  0% {
+      margin-left: 0;
+  }
+  100% {
+      margin-left: -1600px;
+  }
+}
+@keyframes swell {
+  0%, 100% {
+      transform: translate3d(0,-25px,0);
+  }
+  50% {
+      transform: translate3d(0,5px,0);
+  }
+}
+
+
+
+.zoom-container {
+  display: flex;
+  justify-content: space-between;
+  width: 800px; /* Adjust the width based on your layout */
+  position: relative;
+}
+
+.product-image-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.zoomed-image {
+  position: absolute; /* Make sure zoom div is positioned correctly */
+  width: 700px; 
+  height: 600px;
+  background-size: 200%; /* Zoom factor (2x) */
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  left: 420px; /* Position the zoomed image to the right of the main image */
+  top: 0; /* Align with the top of the main image */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.boxd{
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
