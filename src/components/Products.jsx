@@ -9,7 +9,7 @@ function Products(curElem) {
    return (
       <>
          <NavLink to={`/SingleProduct/${_id}`}>
-            <div className=" bg-white rounded-lg w-48 mb-11">
+            <div className=" bg-white rounded-lg w-48 mb-11 ">
                <div className=" relative hover:scale-[110%]">
 
                   <span className="absolute right-0 top-0 m-3 bg-red-100 z-98 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">{category}</span>

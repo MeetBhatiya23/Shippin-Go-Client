@@ -13,12 +13,12 @@ function FeaturesProduct() {
 
   return (
     <>
-      <div>
-        <div className="px-[120px] py-[10px] mt-20 mb-5">
+      <div className="container">
+        <div className=" py-[10px] mt-20 mb-5 ">
           <div className="text-[10px] italic text-blue-700">CHECK NOW!</div>
           <div className="text-3xl italic">Our Feature Services</div>
         </div>
-        <div className="flex px-[50px] justify-around items-center ">
+        <div className="flex  justify-around items-center ">
           {featuersProducts.map((curElem) => {
             return <Products key={curElem._id} {...curElem} />
           })}

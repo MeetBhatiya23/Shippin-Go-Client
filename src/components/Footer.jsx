@@ -1,9 +1,54 @@
-
-import { FaDiscord, FaInstagramSquare, FaYoutube,FaHeart } from "react-icons/fa";
+import { data } from "autoprefixer";
+import {
+  FaDiscord,
+  FaInstagramSquare,
+  FaYoutube,
+  FaHeart,
+} from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 function Footer() {
-    return (
-        <>
-            <div className="mt-6 pt-10 ">
+  const navigate = useNavigate();
+  const footerHeadData = [
+    {
+      title: "Get to Know Us ",
+      data: [
+        "Home",
+        "About Us",
+        "Contact Us",
+        "Privacy Policy",
+        "Terms & Conditions",
+      ],
+    },
+    { title: "Connect with Us", data: ["Facebook", "Twitter", "Instagram"] },
+    {
+      title: "Make Money with Us",
+      data: [
+        "Sell on Amazon",
+        "Sell under Amazon Accelerator",
+        "Protect and Build Your Brand",
+        "Amazon Global Selling",
+        "Supply to Amazon",
+        "Become an Affiliate",
+        "Fulfilment by Amazon",
+        "Advertise Your Products",
+        "Amazon Pay on Merchants",
+      ],
+    },
+    {
+      title: "Let Us Help You",
+      data: [
+        "Your Account",
+        "Returns Centre",
+        "Recalls and Product Safety Alerts",
+        "100% Purchase Protection",
+        "Amazon App Download",
+        "Help",
+      ],
+    },
+  ];
+  return (
+    <>
+      {/* <div className="mt-6 pt-10 ">
                 <div className="bg-[#0b192f] ">
                     <div className="px-10 relative flex justify-center" >
                         <div className=" responsive bg-white p-3 rounded pt-0 flex justify-between absolute w-3/4 -bottom-7"  >
@@ -60,9 +105,62 @@ function Footer() {
                         <div className="flex items-center">Made with <FaHeart className="text-[20px] text-[#f2ff03] py-1  "/> by MRB</div>
                     </div>
                 </div>
-            </div>
-        </>
-    )
+            </div> */}
+      <div className="mt-[50px] ">
+        <div
+          onClick={() => window.scrollTo(0, 0)}
+          className="text-white cursor-pointer flex justify-center items-center w-full transition duration-500 ease-in-out bg-[#37475a] hover:bg-[#485769] py-3 px-20"
+        >
+          Back To Top
+        </div>
+        <div className="bg-[#232F3E]">
+          <div className=" w-full container flex justify-between gap-28 items-start py-7 text-white ">
+            {footerHeadData?.map((curElem) => (
+              <div className="">
+                <div className="text-[16px] py-3 font-bold ">
+                  {curElem.title}
+                </div>
+                {curElem.data?.map((data) => (
+                  <div className="text-sm py-1 hover:underline hover:text-blue-400 cursor-pointer text-[#DDD] font-medium">
+                    {data}
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+          <div className="border-b-2 border-gray-600"></div>
+          <div className="flex gap-20 items-center w-full py-3 justify-center">
+            <img
+              src="/src/assets/footer-logo.png"
+              className="w-28 cursor-pointer"
+              alt="logo images"
+              onClick={() => {
+                navigate("/");
+                window.scrollTo(0, 0);
+              }}
+            />
+
+            <button className="text-sm rounded-md bg-[#232F3E] border  py-1.5 flex items-center gap-3 pl-2 pr-8 font-medium text-[#ddd] border-[#ddd]">
+              <img
+                src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f1ee-1f1f3.svg"
+                className="w-5"
+                alt="logo images"
+              />
+              India
+            </button>
+          </div>
+        </div>
+        <div className="bg-[#131A22] py-4 text-xs gap-1 text-[#DDD] flex flex-col items-center justify-center font-medium">
+          <div className=" gap-5  w-full flex justify-center items-center">
+            <div>Conditions of Use & Sale</div>
+            <div>Privacy Notice</div>
+            <div>Interest-Based Ads</div>
+          </div>
+          <div>© 1996-2025, Amazon.com, Inc. or its affiliates</div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Footer
+export default Footer;

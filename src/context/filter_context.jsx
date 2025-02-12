@@ -11,7 +11,8 @@ const initialstate = {
     filter: {
         text: "",
         company:"",
-        productType:""
+        productType:"",
+        prevValue:""
     }
 };
 
