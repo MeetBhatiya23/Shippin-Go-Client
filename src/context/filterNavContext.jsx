@@ -7,7 +7,7 @@ const filterNavContext = createContext()
 const FilterNavProvider = ({ children }) => {
     const [seletedCompany, setSeletedCompany] = useState([])
     const [alldata, setAlldata] = useState([])
-    const API = "http://localhost:3000/api/products";
+    const API = "https://shopping-go-backend-peach.vercel.app/api/products";
 
 
     useEffect(() => {

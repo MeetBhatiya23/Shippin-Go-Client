@@ -12,7 +12,7 @@ const AppRegisterProvider = ({ children }) => {
     const userAdd = async (user) => {
 
         try {
-            const res = await axios.post("http://localhost:3000/api/users", user)
+            const res = await axios.post("https://shopping-go-backend-peach.vercel.app/api/users", user)
             setUsersData([...usersData, res.data])
             // navigate('/verifyphone');
         } catch (error) {

@@ -17,7 +17,7 @@ import ProductZoom from "./ProductZoom";
 import SuggetionProduct from "./SuggetionProduct";
 import { useFilterContext } from "../context/filter_context";
 
-const API = "http://localhost:3000/api/products";
+const API = "https://shopping-go-backend-peach.vercel.app/api/products";
 function SingleProduct() {
   const { AddToCart } = useCartContext();
   const { _id } = useParams();

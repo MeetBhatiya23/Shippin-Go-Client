@@ -15,7 +15,7 @@ const initialstate = {
 }
 
 const appContext = createContext()
-const API = 'http://localhost:3000/api/products'
+const API = 'https://shopping-go-backend-peach.vercel.app/api/products'
 // eslint-disable-next-line react/prop-types
 const AppProvider = ({ children }) => {
 
