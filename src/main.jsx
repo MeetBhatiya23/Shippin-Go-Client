@@ -6,7 +6,7 @@ import AppProvider from './context/productContext.jsx'
 import FilterContextProvider from './context/filter_context.jsx'
 import CardProvider from './context/addcartContext.jsx'
 import AppRegisterProvider from './context/registerUserContext.jsx'
-import FilterNavProvider from './context/FilterNavContext.jsx'
+import FilterNavProvider from './context/filterNavContext.jsx'
 
 
 
