@@ -59,10 +59,10 @@ function Nav() {
           <div className="logo">
             {isScrolled ? (
               <NavbarLogo
-                bg={" bg-[#4148a2]"}
-                boxText={"text-white"}
-                text={"text-[#4148a2]"}
-                border={"border-[#4148a2]"}
+                // bg={" bg-[#4148a2]"}
+                // boxText={"text-white"}
+                // text={"text-[#4148a2]"}
+                // border={"border-[#4148a2]"}
               />
             ) : (
               <NavbarLogo />
